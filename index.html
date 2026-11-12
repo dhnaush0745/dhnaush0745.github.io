@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dhanush J | Backend Developer, Chennai</title>
+<meta name="description" content="Dhanush J is a Python and Django backend developer and 2026 B.Tech IT graduate in Chennai. Projects, experience and resume.">
+<link rel="canonical" href="https://dhnaush0745.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dhanush J | Backend Developer, Chennai">
+<meta property="og:description" content="Python and Django backend developer. Ride the line: projects, skills, experience and resume.">
+<meta property="og:url" content="https://dhnaush0745.github.io/">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#1F35E8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='50' fill='%231F35E8'/%3E%3Ccircle cx='50' cy='50' r='20' fill='%23fff'/%3E%3Ccircle cx='50' cy='50' r='9' fill='%23FFD60A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1F35E8;--ink:#0B1240;--paper:#FFFDF5;--fg:#fff;--y:#FFD60A;--mut:#C7CEFF;--l1:#FF6B5B;--l2:#FFD60A;--l3:#4FF0B0;--l4:#8EC5FF;--l5:#FF8AD8;--pad:4rem;--lx:1.4rem;
+ --disp:"Syne",system-ui,sans-serif;--mono:"DM Mono",ui-monospace,Menlo,monospace}
+[data-theme=night]{--bg:#070B2E;--mut:#8D97E0}
+@media (max-width:700px){:root{--pad:2.7rem;--lx:.7rem}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--mono);font-size:1rem;line-height:1.65;overflow-x:hidden;transition:background .5s}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--y);outline-offset:3px;border-radius:4px}
+button{font-family:inherit}
+.btn{display:inline-block;padding:.8rem 1.3rem;border:2px solid var(--fg);border-radius:999px;background:transparent;color:var(--fg);font:500 .95rem var(--mono);text-decoration:none;cursor:pointer;will-change:transform}
+.btn.y{background:var(--y);border-color:var(--y);color:var(--ink)}
+.btn:hover{background:var(--fg);color:var(--ink);border-color:var(--fg)}
+.row{display:flex;flex-wrap:wrap;gap:.7rem}
+
+/* hero */
+#hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden}
+#kolam{position:absolute;inset:0;width:100%;height:100%}
+.hero-in{position:relative;width:100%;max-width:72rem;margin:0 auto;padding:6rem 1.4rem 3.5rem;pointer-events:none}
+.hero-in *{pointer-events:auto}
+.pre{font-size:.85rem;color:var(--mut);margin:0 0 1rem;letter-spacing:.04em}
+h1{font:700 clamp(3.4rem,15vw,12rem)/.86 var(--disp);letter-spacing:-.05em;margin:0 0 1.5rem;color:var(--y);pointer-events:none}
+h1 .w{display:block;overflow:hidden;padding-bottom:.06em}
+h1 .l{display:inline-block;transform:translateY(105%);animation:up .9s cubic-bezier(.2,.9,.2,1) forwards;animation-delay:calc(var(--i)*70ms + 200ms)}
+@keyframes up{to{transform:none}}
+.sub{max-width:30rem;margin:0 0 1.6rem;font-size:1.05rem}
+.where{position:absolute;top:1.1rem;right:1.2rem;z-index:5;display:flex;align-items:center;gap:.6rem;background:var(--paper);color:var(--ink);border:0;border-radius:8px;padding:.5rem .8rem;font:500 .8rem var(--mono);cursor:pointer}
+.where b{background:var(--ink);color:var(--paper);border-radius:5px;padding:.1rem .45rem}
+.drawhint{position:absolute;right:1.4rem;bottom:1.2rem;font-size:.78rem;color:var(--mut);text-align:right;max-width:13rem}
+
+/* rail */
+.rail{position:relative;max-width:72rem;margin:0 auto;padding-left:var(--pad);padding-right:1.4rem}
+.track{position:absolute;left:var(--lx);top:0;bottom:0;width:4px;background:rgba(255,255,255,.22);border-radius:4px}
+.fillln{position:absolute;left:var(--lx);top:0;width:4px;height:0;background:var(--y);border-radius:4px}
+#train{position:absolute;left:calc(var(--lx) - 13px);top:0;width:30px;height:46px;border-radius:15px;background:var(--paper);border:3px solid var(--ink);z-index:4;transition:transform .1s;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;box-shadow:0 0 0 3px var(--y)}
+#train i{width:14px;height:9px;background:var(--ink);border-radius:3px}
+#train i:first-child{background:var(--l1)}
+section{position:relative;padding:4.5rem 0 3rem}
+section::before,.ev::before{content:"";position:absolute;border-radius:50%;background:var(--bg);border:4px solid rgba(255,255,255,.5);transition:.35s;z-index:2}
+section::before{left:calc(var(--lx) + 2px - var(--pad) - 11px);top:calc(4.5rem + 5px);width:22px;height:22px}
+section.lit::before,.ev.lit::before{background:var(--y);border-color:var(--paper);box-shadow:0 0 0 5px rgba(255,214,10,.35)}
+.sign{display:inline-flex;align-items:center;gap:.6rem;background:var(--paper);color:var(--ink);border-radius:8px;padding:.3rem .8rem .3rem .4rem;font:500 .85rem var(--mono);margin-bottom:1rem}
+.sign i{width:1.3rem;height:1.3rem;border-radius:50%;background:var(--l1);display:inline-block}
+h2{font:800 clamp(2.2rem,6vw,4rem)/1 var(--disp);letter-spacing:-.04em;margin:0 0 1rem}
+h2 .t{display:inline-block;clip-path:inset(0 100% 0 0);transition:clip-path .9s cubic-bezier(.2,.8,.2,1)}
+h2.in .t{clip-path:inset(0 0 0 0)}
+.lead{color:var(--mut);max-width:34rem;margin:0 0 2rem}
+
+/* board */
+.bio{font:500 clamp(1.3rem,3vw,1.9rem)/1.3 var(--disp);max-width:40rem;margin:0 0 2rem;letter-spacing:-.02em}
+.board{background:#0A0A0F;border-radius:14px;padding:1.2rem 1.2rem 1rem;border:3px solid #000;box-shadow:0 0 0 3px rgba(255,255,255,.15)}
+.brow{margin-bottom:.9rem}
+.blab{font-size:.7rem;color:#8A8F9E;letter-spacing:.12em;margin-bottom:.25rem}
+.cells{display:flex;gap:3px;flex-wrap:nowrap}
+.cell{flex:1 1 0;max-width:1.9rem;aspect-ratio:3/4;background:#1B1B22;border-radius:3px;display:flex;align-items:center;justify-content:center;color:#FFD60A;font:500 clamp(.7rem,3.2vw,1.2rem) var(--mono);position:relative;overflow:hidden}
+.cell::after{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:#000}
+.cell.f{animation:flap .06s linear}
+@keyframes flap{50%{transform:scaleY(.15)}}
+.bbtn{margin-top:.4rem;background:none;border:1px solid #444;color:#aaa;border-radius:6px;padding:.3rem .7rem;font:.75rem var(--mono);cursor:pointer}
+
+/* skills map */
+.map{overflow-x:auto;padding:0 0 1rem}
+.ln{display:flex;align-items:flex-start;gap:1rem;margin-bottom:2.9rem;min-width:max-content}
+.badge{flex:none;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--c);color:var(--ink);font:800 1rem var(--disp);display:flex;align-items:center;justify-content:center}
+.lname{position:absolute;left:0;top:-1.4rem;font-size:.72rem;color:var(--mut)}
+.stops{position:relative;list-style:none;margin:0;padding:0;display:flex;margin-top:.6rem}
+.stops li{position:relative;flex:none;padding:1.4rem 1.2rem 0 0;font-size:.85rem;min-width:5.6rem}
+.stops li::after{content:"";position:absolute;left:0;top:6px;width:100%;height:6px;background:var(--c);transform:scaleX(0);transform-origin:left;transition:transform .5s;transition-delay:calc(var(--i)*110ms)}
+.stops li:last-child::after{width:10px}
+.stops li::before{content:"";position:absolute;left:0;top:0;width:18px;height:18px;border-radius:50%;background:var(--bg);border:4px solid var(--c);z-index:1;transform:scale(0);transition:transform .35s cubic-bezier(.3,1.6,.5,1);transition-delay:calc(var(--i)*110ms + 150ms)}
+.map.in .stops li::after,.map.in .stops li::before{transform:none}
+.stops li:hover::before{background:var(--c)}
+
+/* tickets */
+.tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.6rem}
+.tab{border:2px solid var(--fg);background:transparent;color:var(--fg);border-radius:999px;padding:.35rem .9rem;font:500 .85rem var(--mono);cursor:pointer}
+.tab[aria-selected=true]{background:var(--fg);color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(17.5rem,1fr));gap:1.6rem 1.4rem}
+.tk{perspective:1100px;height:30rem}.tk.hide{display:none}
+.inner{position:relative;width:100%;height:100%;transition:transform .8s cubic-bezier(.3,.9,.3,1);transform-style:preserve-3d}
+.tk.flip .inner{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--paper);color:var(--ink);padding:1.2rem 1.2rem 1rem;display:flex;flex-direction:column;
+ -webkit-mask:radial-gradient(circle 12px at 0 74%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(circle 12px at 100% 74%,#0000 98%,#000) right/51% 100% no-repeat;
+ mask:radial-gradient(circle 12px at 0 74%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(circle 12px at 100% 74%,#0000 98%,#000) right/51% 100% no-repeat;border-radius:10px}
+.back{transform:rotateY(180deg);overflow:auto}
+.fbtn{all:unset;cursor:pointer;display:flex;flex-direction:column;height:100%;width:100%}
+.fbtn:focus-visible{outline:3px solid var(--bg);outline-offset:-3px}
+.tmeta{font-size:.72rem;display:flex;justify-content:space-between;gap:.5rem;color:#555B80}
+.tk h3{font:800 1.7rem/1.05 var(--disp);letter-spacing:-.03em;margin:.8rem 0 .5rem}
+.tk .short{font-size:.88rem;margin:0}
+.stub{margin-top:auto;border-top:2px dashed var(--ink);padding-top:.7rem;height:26%;display:flex;flex-direction:column;justify-content:space-between}
+.stub svg{width:100%;height:2.2rem}
+.stub span{font-size:.7rem;color:#555B80}
+.back h4{font:500 .7rem var(--mono);letter-spacing:.1em;color:#8A5A00;margin:.9rem 0 .2rem}
+.back h4:first-child{margin-top:0}
+.back p{margin:0;font-size:.82rem;line-height:1.5}
+.met{display:flex;flex-wrap:wrap;gap:.5rem}
+.met div{border:2px solid var(--ink);border-radius:8px;padding:.2rem .5rem}
+.met b{font:800 1.2rem var(--disp);display:block;line-height:1.1}.met span{font-size:.68rem}
+.chips{display:flex;flex-wrap:wrap;gap:.3rem}.chips span{background:var(--ink);color:var(--paper);border-radius:999px;padding:.05rem .55rem;font-size:.72rem}
+.back .btn{border-color:var(--ink);color:var(--ink);padding:.4rem .9rem;font-size:.8rem;margin-top:.4rem}
+.back .btn:hover{background:var(--ink);color:var(--paper)}
+.flipback{all:unset;cursor:pointer;font-size:.75rem;text-decoration:underline;margin-top:.8rem;color:var(--ink)}
+
+/* kiosk */
+.kiosk{background:#050825;border:3px solid #fff;border-radius:16px;overflow:hidden;font-size:.92rem}
+.kiosk .bar{background:var(--paper);color:var(--ink);padding:.4rem 1rem;font-size:.78rem}
+#out{padding:1rem;height:19rem;overflow:auto;white-space:pre-wrap;word-break:break-word;color:var(--y)}
+#out .c{color:#fff}#out .d{color:var(--mut)}
+.prompt{display:flex;gap:.5rem;padding:.7rem 1rem;border-top:2px solid rgba(255,255,255,.2)}
+.prompt span{color:var(--l3)}
+#cmd{flex:1;background:none;border:0;color:#fff;font:inherit;outline:0}
+
+/* experience */
+.ev{position:relative;margin:0 0 2.2rem}
+.ev::before{left:calc(var(--lx) + 2px - var(--pad) - 8px);top:.45rem;width:16px;height:16px;border-width:3px}
+.when{font-size:.8rem;color:var(--y)}
+.ev h3{font:700 1.5rem/1.15 var(--disp);letter-spacing:-.02em;margin:.1rem 0 .3rem}
+.ev p{margin:0;color:var(--mut);max-width:40rem;font-size:.92rem}
+
+.big{font:800 clamp(2rem,7vw,5rem)/1 var(--disp);letter-spacing:-.04em;margin:0 0 1.6rem}
+footer{max-width:72rem;margin:0 auto;padding:2rem 1.4rem 3rem;color:var(--mut);font-size:.8rem;border-top:2px solid rgba(255,255,255,.2)}
+
+/* palette, toast */
+#pal{position:fixed;inset:0;z-index:60;display:none;align-items:flex-start;justify-content:center;padding:14vh 1rem 1rem;background:rgba(5,8,37,.75)}
+#pal.on{display:flex}
+.pbox{width:min(32rem,100%);background:var(--paper);color:var(--ink);border-radius:14px;overflow:hidden;border:3px solid var(--ink)}
+.ptitle{padding:.8rem 1.1rem 0;font:800 1.3rem var(--disp)}
+#pq{width:100%;background:none;border:0;border-bottom:2px solid var(--ink);padding:.6rem 1.1rem .8rem;color:var(--ink);font:1rem var(--mono);outline:0}
+#pl{list-style:none;margin:0;padding:.4rem;max-height:20rem;overflow:auto}
+#pl li{padding:.6rem .8rem;border-radius:8px;cursor:pointer;display:flex;justify-content:space-between;gap:1rem}
+#pl li small{color:#555B80}
+#pl li[aria-selected=true]{background:var(--y)}
+#toast{position:fixed;left:50%;bottom:1.5rem;transform:translate(-50%,2rem);background:var(--y);color:var(--ink);padding:.7rem 1.2rem;border-radius:999px;opacity:0;transition:.3s;z-index:80;font-weight:500}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rv{opacity:1;transform:none;transition:none}h2 .t{clip-path:none;transition:none}h1 .l{animation:none;transform:none}.stops li::after,.stops li::before{transform:none;transition:none}.inner{transition:none}}
+</style>
+</head>
+<body>
+<header id="hero">
+  <canvas id="kolam" aria-hidden="true"></canvas>
+  <button class="where" id="open-pal" aria-haspopup="dialog">Where to? <b>Ctrl K</b></button>
+  <div class="hero-in">
+    <p class="pre">Backend developer, Chennai</p>
+    <h1 aria-label="Dhanush J"><span class="w" aria-hidden="true" id="h1a"></span><span class="w" aria-hidden="true" id="h1b"></span></h1>
+    <p class="sub">I work in Python, Django and SQL, and I care about what happens between the click and the database.</p>
+    <div class="row">
+      <a class="btn y" data-mag href="Dhanush_J_Resume.pdf" download>Download resume</a>
+      <a class="btn" data-mag href="#projects">See projects</a>
+      <button class="btn" data-mag id="copy-hero">Copy email</button>
+    </div>
+  </div>
+  <p class="drawhint">Drag a finger or move the mouse to draw a kolam between the dots.</p>
+</header>
+
+<main class="rail" id="rail">
+  <div class="track"></div><div class="fillln" id="fl"></div>
+  <div id="train" aria-hidden="true"><i></i><i></i></div>
+
+  <section id="about">
+    <div class="sign"><i></i>Departures</div>
+    <h2>Now boarding</h2>
+    <p class="bio rv">Fresh B.Tech IT graduate. I got hooked on backends through Django models, and I like tracing a bug until I find its real cause.</p>
+    <div class="board rv" id="board" aria-label="Departure board with my status"></div>
+    <button class="bbtn" id="reflip" style="margin-top:.8rem;border-color:rgba(255,255,255,.5);color:#fff">Announce again</button>
+  </section>
+
+  <section id="skills">
+    <div class="sign"><i style="background:var(--l2)"></i>Network map</div>
+    <h2>Skills, as a metro map</h2>
+    <p class="lead rv">Each line is a skill family. Each stop is something I have used or trained on.</p>
+    <div class="map" id="map"></div>
+  </section>
+
+  <section id="projects">
+    <div class="sign"><i style="background:var(--l3)"></i>Tickets</div>
+    <h2>Where I've been</h2>
+    <p class="lead rv">Two projects of my own and four internship builds. Tap a ticket to flip it.</p>
+    <div class="tabs" role="tablist" id="tabs" aria-label="Filter projects"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="terminal">
+    <div class="sign"><i style="background:var(--l4)"></i>Information kiosk</div>
+    <h2>Ask the kiosk</h2>
+    <p class="lead rv">Type <b>help</b>.</p>
+    <div class="kiosk rv" id="kiosk">
+      <div class="bar">INFORMATION · type a command</div>
+      <div id="out" aria-live="polite"></div>
+      <label class="prompt"><span>&gt;</span><input id="cmd" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Kiosk command"></label>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="sign"><i style="background:var(--l5)"></i>Local stops</div>
+    <h2>Stops so far</h2>
+    <div id="tl"></div>
+  </section>
+
+  <section id="contact">
+    <div class="sign"><i></i>Final stop</div>
+    <p class="big rv">Looking for a junior Python or backend role? Get off here.</p>
+    <div class="row rv">
+      <button class="btn y" data-mag id="copy-email">mr.dhanush.j@gmail.com</button>
+      <a class="btn" data-mag href="Dhanush_J_Resume.pdf" download>Resume (PDF)</a>
+      <a class="btn" data-mag href="https://github.com/dhnaush0745">GitHub</a>
+      <a class="btn" data-mag href="https://linkedin.com/in/mr-j-dhanush">LinkedIn</a>
+      <a class="btn" data-mag href="https://leetcode.com/u/user1388To">LeetCode</a>
+    </div>
+  </section>
+</main>
+
+<footer>© Dhanush J. Chennai, Tamil Nadu.</footer>
+
+<div id="pal" role="dialog" aria-modal="true" aria-label="Where to?">
+  <div class="pbox"><div class="ptitle">Where to?</div><input id="pq" placeholder="Type a stop or action" autocomplete="off" aria-label="Search destinations"><ul id="pl" role="listbox"></ul></div>
+</div>
+<div id="toast" role="status"></div>
+
+<script>
+(function(){
+"use strict";
+var EMAIL="mr.dhanush.j@gmail.com",RESUME="Dhanush_J_Resume.pdf";
+var LINKS={github:"https://github.com/dhnaush0745",linkedin:"https://linkedin.com/in/mr-j-dhanush",leetcode:"https://leetcode.com/u/user1388To"};
+var $=function(s,r){return (r||document).querySelector(s)};
+var reduce=matchMedia("(prefers-reduced-motion:reduce)").matches;
+var LINES=[
+ {n:"L",c:"var(--l1)",t:"Languages",s:["Python","SQL","JavaScript","HTML","CSS"]},
+ {n:"B",c:"var(--l2)",t:"Backend",s:["Django","Django ORM","REST APIs","DRF","FastAPI","Decorators","OOP"]},
+ {n:"D",c:"var(--l3)",t:"Databases",s:["PostgreSQL","MySQL","SQLite","MS SQL","MongoDB"]},
+ {n:"P",c:"var(--l4)",t:"Practice",s:["Unit tests","Code reviews","Query tuning","Git","GitHub","DSA"]},
+ {n:"C",c:"var(--l5)",t:"Cloud and ML",s:["AWS Lambda","IBM Cloud","Scikit-learn","FAISS","LangChain"]}];
+var PROJECTS=[
+ {t:"VEC-Sentry",tags:["AI / ML"],kind:"Final year project",short:"A runtime defense layer for RAG pipelines.",
+  problem:"A RAG system trusts whatever its retriever returns, so poisoned chunks in the vector store can steer the LLM.",
+  sol:"A layer between retriever and LLM audits every chunk with three detectors (centroid-distance outliers, rank divergence between two embedding models, lineage gaps), then blocks, warns or re-ranks. A Gradio app supports uploads and attack simulation.",
+  m:[["3","attacks"],["3","detectors"],["2,000","docs"],["200","queries"]],stack:["Python","FAISS","LangChain","Gradio"],gh:"https://github.com/dhnaush0745/VEC-SENTRY-RAG-Security-Defense-System"},
+ {t:"Student Management System",tags:["Backend"],kind:"Qspiders project",short:"A Django app built by hand from a written requirements document.",
+  problem:"Turn a requirements document into a working full-stack app with no AI assistance.",
+  sol:"Teacher, Course and Student models linked by ForeignKeys with unique constraints and migrations. ModelForms with a custom duplicate roll-number validator, a POST-based detail view that keeps IDs out of URLs, and a configured admin.",
+  m:[["3","models"],["0","AI-written code"]],stack:["Python","Django","SQLite","HTML","CSS"],gh:"https://github.com/dhnaush0745/Student-Management-System-Using-Django"},
+ {t:"Document Verification Dashboard",tags:["Backend","Internship"],kind:"SkillRank, team project",short:"Upload and verification module for a U.S. government platform.",
+  problem:"Landowners upload documents, rules are extracted, and staff verify them on a dashboard. The data must arrive complete and correct.",
+  sol:"I owned the upload and verification module, and traced a teammate's empty-tables bug from MongoDB records back to code that was writing null values by mistake.",
+  m:[["1","root cause found"]],stack:["Python","MongoDB","AWS Lambda"],gh:null},
+ {t:"Fire-Type Classifier",tags:["AI / ML","Internship"],kind:"Edunet x Shell",short:"Fire classification from NASA satellite data over India.",
+  problem:"Classify fire types from NASA MODIS data for India, 2021 to 2023, with imbalanced classes.",
+  sol:"Preprocessing, exploratory analysis, SMOTE for class imbalance and a comparison of classifiers. A Random Forest worked best.",
+  m:[["97.8%","accuracy"]],stack:["Python","Scikit-learn","SMOTE"],gh:null},
+ {t:"Intrusion Detection Service",tags:["AI / ML","Internship"],kind:"Edunet x IBM",short:"A cloud-deployed model with a live scoring endpoint.",
+  problem:"Detect network intrusions and make the model usable through an API.",
+  sol:"IBM Watson AutoAI generated and compared pipelines. I picked the best on holdout metrics and deployed it on IBM Cloud as a web service for real-time scoring.",
+  m:[["1","hosted endpoint"]],stack:["Watson AutoAI","Watson ML","IBM Cloud"],gh:null},
+ {t:"Netflix and Airbnb Analysis",tags:["AI / ML","Internship"],kind:"Edunet x Vodafone Idea",short:"Content and pricing trends in two datasets.",
+  problem:"Find and validate trends in Netflix content and Airbnb pricing.",
+  sol:"Extracted and validated the data with Julius AI, found trends and built charts in Jupyter Notebook.",
+  m:[["2","datasets"]],stack:["Python","Julius AI","Jupyter"],gh:null}];
+var EVENTS=[
+ ["2022 to May 2026","B.Tech, Information Technology","Perunthalaivar Kamarajar Institute of Engineering and Technology. CGPA 8.17. Class representative for all four years."],
+ ["Apr to May 2025","Software Engineer Intern, SkillRank","Backend of a U.S. government document-verification dashboard. Owned upload and verification, and root-caused a null-value bug."],
+ ["Jul to Aug 2025","ML Intern, Edunet (Shell and IBM)","A fire-type classifier at 97.8% accuracy, and an intrusion detection model deployed as a hosted API."],
+ ["Sep to Oct 2025","Data Analysis Intern, Edunet (Vodafone Idea)","Trend analysis and charts on Netflix and Airbnb datasets."],
+ ["Jan to Sep 2026","Full Stack Program, Qspiders","Python, Django, REST APIs, SQL, unit testing and code reviews. Built a REST API as a training project."]];
+
+/* helpers */
+var tt;function toast(m){var t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(tt);tt=setTimeout(function(){t.classList.remove("on")},1800)}
+function copyEmail(){function done(){toast("Copied to clipboard!")}
+  function fb(){var a=document.createElement("textarea");a.value=EMAIL;document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove();done()}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(EMAIL).then(done,fb)}else fb()}
+$("#copy-hero").onclick=copyEmail;$("#copy-email").onclick=copyEmail;
+function night(){var d=document.documentElement,n=d.getAttribute("data-theme")==="night";if(n)d.removeAttribute("data-theme");else d.setAttribute("data-theme","night");toast(n?"Daytime service":"Night service")}
+function dl(){var a=document.createElement("a");a.href=RESUME;a.download="";document.body.appendChild(a);a.click();a.remove();toast("Downloading resume")}
+function go(id){var e=document.getElementById(id);if(e)e.scrollIntoView({behavior:reduce?"auto":"smooth"})}
+function esc(s){var d=document.createElement("div");d.textContent=s;return d.innerHTML}
+
+/* hero name */
+function letters(el,txt,off){el.innerHTML=txt.split("").map(function(c,i){return '<span class="l" style="--i:'+(i+off)+'">'+c+'</span>'}).join("")}
+letters($("#h1a"),"Dhanush",0);letters($("#h1b"),"J.",7);
+
+/* kolam canvas: dots on a diamond lattice, a glowing line weaves between them */
+(function(){
+  var c=$("#kolam"),x=c.getContext("2d"),W,H,S,dots=[],trail=[],last=0,idle=0,t=0,vis=true,mx=-1,my=-1;
+  function size(){var r=devicePixelRatio||1;W=c.clientWidth;H=c.clientHeight;c.width=W*r;c.height=H*r;x.setTransform(r,0,0,r,0,0);
+    S=W<600?38:52;dots=[];for(var j=0;j*S/2<H+S;j++)for(var i=0;i*S/2<W+S;i++)if((i+j)%2===0)dots.push([i*S/2,j*S/2])}
+  function auto(tm){var cx=W*.62,cy=H*.4,ax=Math.min(W*.3,260),ay=Math.min(H*.25,170);
+    return [cx+ax*Math.sin(tm*.9)+ax*.35*Math.sin(tm*2.7),cy+ay*Math.sin(tm*1.3+1)+ay*.3*Math.cos(tm*3.1)]}
+  function push(px,py){trail.push({x:px,y:py,t:performance.now()});if(trail.length>90)trail.shift()}
+  function frame(now){
+    if(!vis)return;t+=.016;x.clearRect(0,0,W,H);
+    if(now-idle>2200&&!reduce){var p=auto(t);push(p[0],p[1]);mx=p[0];my=p[1]}
+    for(var i=0;i<dots.length;i++){var d=dots[i],dd=Math.hypot(d[0]-mx,d[1]-my),k=Math.max(0,1-dd/90);
+      x.fillStyle=k>0?"#FFD60A":"rgba(255,255,255,.55)";x.beginPath();x.arc(d[0],d[1],2.4+k*4.5,0,6.3);x.fill()}
+    x.lineCap="round";x.lineJoin="round";
+    for(var n=1;n<trail.length;n++){var a=trail[n-1],b=trail[n],age=(now-b.t)/2400;if(age>1||Math.hypot(a.x-b.x,a.y-b.y)>140)continue;
+      x.strokeStyle="rgba(255,214,10,"+(1-age)+")";x.lineWidth=2+(1-age)*5;x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke()}
+    if(!reduce)requestAnimationFrame(frame)}
+  size();
+  if(reduce){var pts=[];for(var q=0;q<260;q++){var p=auto(q*.04);pts.push({x:p[0],y:p[1],t:performance.now()})}
+    trail=pts;mx=pts[0].x;my=pts[0].y;frame(performance.now())}
+  else requestAnimationFrame(frame);
+  addEventListener("resize",function(){size();if(reduce)frame(performance.now())});
+  var h=$("#hero");
+  h.addEventListener("pointermove",function(e){var r=c.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top;idle=performance.now();push(mx,my)});
+  new IntersectionObserver(function(en){var v=en[0].isIntersecting;if(v&&!vis&&!reduce){vis=true;requestAnimationFrame(frame)}vis=v},{threshold:0}).observe(h);
+})();
+
+/* magnetic buttons */
+if(matchMedia("(hover:hover) and (pointer:fine)").matches&&!reduce){
+  document.addEventListener("pointermove",function(e){document.querySelectorAll("[data-mag]").forEach(function(el){
+    var r=el.getBoundingClientRect(),dx=e.clientX-(r.left+r.width/2),dy=e.clientY-(r.top+r.height/2);
+    el.style.transform=Math.hypot(dx,dy)<80?"translate("+dx*.22+"px,"+dy*.22+"px)":""})})}
+
+/* split-flap board */
+var CH=" ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789:./-";
+var COLS=17,BROWS=[["STATUS","OPEN TO WORK"],["LOOKING FOR","JR PYTHON ROLE"],["CHENNAI IST",""],["GRADUATED","B.TECH IT 2026"],["JUST FINISHED","QSPIDERS SEP 2026"]];
+var board=$("#board"),cellsByRow=[];
+BROWS.forEach(function(r,ri){var d=document.createElement("div");d.className="brow";
+  d.innerHTML='<div class="blab">'+r[0]+'</div><div class="cells" role="text" aria-label="'+r[0]+': '+(r[1]||"live clock")+'"></div>';board.appendChild(d);
+  var cs=[];for(var i=0;i<COLS;i++){var s=document.createElement("span");s.className="cell";s.setAttribute("aria-hidden","true");s.textContent=" ";$(".cells",d).appendChild(s);cs.push(s)}cellsByRow.push(cs)});
+function setCell(cell,ch,delay){
+  if(cell.textContent===ch)return;
+  if(reduce){cell.textContent=ch;return}
+  var steps=3+Math.floor(Math.random()*5),n=0;
+  setTimeout(function(){var iv=setInterval(function(){n++;cell.textContent=n>=steps?ch:CH[Math.floor(Math.random()*CH.length)];
+    cell.classList.remove("f");void cell.offsetWidth;cell.classList.add("f");if(n>=steps)clearInterval(iv)},55)},delay)}
+function setRow(ri,txt,base){var p=txt.length>COLS?txt.slice(0,COLS):txt;while(p.length<COLS)p+=" ";for(var i=0;i<COLS;i++)setCell(cellsByRow[ri][i],p[i],(base||0)+i*28)}
+function clock(){return new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Kolkata",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false}).format(new Date())}
+function announce(){BROWS.forEach(function(r,i){cellsByRow[i].forEach(function(c){c.textContent=" "});setRow(i,r[1]||clock(),i*260)})}
+var announced=false;
+new IntersectionObserver(function(en,o){if(en[0].isIntersecting&&!announced){announced=true;announce();o.disconnect()}},{threshold:.3}).observe(board);
+$("#reflip").onclick=announce;
+setInterval(function(){if(announced)setRow(2,clock(),0)},1000);
+
+/* skills map */
+$("#map").innerHTML=LINES.map(function(l){return '<div class="ln" style="--c:'+l.c+'"><div class="badge" title="'+l.t+'">'+l.n+'</div><div style="position:relative"><span class="lname">'+l.t+'</span><ol class="stops">'+
+  l.s.map(function(s,i){return '<li style="--i:'+i+'">'+s+'</li>'}).join("")+'</ol></div></div>'}).join("");
+
+/* tickets */
+function bars(seed){var h=0,i;for(i=0;i<seed.length;i++)h=(h*31+seed.charCodeAt(i))>>>0;var out="",xp=0;
+  for(i=0;i<46;i++){h=(h*1103515245+12345)>>>0;var w=1+(h>>>16)%4,g=1+(h>>>20)%3;out+='<rect x="'+xp+'" y="0" width="'+w+'" height="40" fill="#0B1240"/>';xp+=w+g}
+  return '<svg viewBox="0 0 '+xp+' 40" preserveAspectRatio="none" aria-hidden="true">'+out+'</svg>'}
+var cats=["All","Backend","AI / ML","Internship"],cur="All";
+function tabs(){$("#tabs").innerHTML=cats.map(function(c){return '<button class="tab" role="tab" aria-selected="'+(c===cur)+'" data-c="'+c+'">'+c+'</button>'}).join("")}
+function grid(){$("#grid").innerHTML=PROJECTS.map(function(p,i){var show=cur==="All"||p.tags.indexOf(cur)>-1;
+  var link=p.gh?'<a class="btn" href="'+p.gh+'">GitHub repo</a>':'<p style="margin-top:.4rem">No public repo. Program work.</p>';
+  return '<div class="tk'+(show?"":" hide")+'" data-i="'+i+'"><div class="inner">'+
+   '<div class="face"><button class="fbtn" aria-label="Flip ticket for '+esc(p.t)+'"><div class="tmeta"><span>'+esc(p.tags.join(" / "))+'</span><span>'+esc(p.kind)+'</span></div><h3>'+esc(p.t)+'</h3><p class="short">'+esc(p.short)+'</p><div class="stub">'+bars(p.t)+'<span>TAP TO FLIP</span></div></button></div>'+
+   '<div class="face back"><h4>PROBLEM</h4><p>'+esc(p.problem)+'</p><h4>SOLUTION</h4><p>'+esc(p.sol)+'</p><h4>NUMBERS</h4><div class="met">'+p.m.map(function(m){return '<div><b>'+esc(m[0])+'</b><span>'+esc(m[1])+'</span></div>'}).join("")+'</div><h4>STACK</h4><div class="chips">'+p.stack.map(function(s){return "<span>"+esc(s)+"</span>"}).join("")+'</div>'+link+'<br><button class="flipback">Flip back</button></div></div></div>'}).join("")}
+tabs();grid();
+$("#tabs").onclick=function(e){var b=e.target.closest(".tab");if(!b)return;cur=b.dataset.c;tabs();grid()};
+$("#grid").onclick=function(e){var tk=e.target.closest(".tk");if(!tk)return;if(e.target.closest(".fbtn")||e.target.closest(".flipback"))tk.classList.toggle("flip")};
+
+/* experience */
+$("#tl").innerHTML=EVENTS.map(function(e){return '<div class="ev rv"><span class="when">'+e[0]+'</span><h3>'+e[1]+'</h3><p>'+e[2]+'</p></div>'}).join("");
+
+/* train */
+var rail=$("#rail"),train=$("#train"),fl=$("#fl");
+function prog(){var r=rail.getBoundingClientRect(),y=Math.max(0,Math.min(r.height-46,innerHeight*.5-r.top-23));
+  train.style.top=y+"px";fl.style.height=(y+23)+"px";
+  document.querySelectorAll("section,.ev").forEach(function(e){e.classList.toggle("lit",e.getBoundingClientRect().top<innerHeight*.5)})}
+addEventListener("scroll",prog,{passive:true});addEventListener("resize",prog);prog();
+
+/* reveal */
+var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.15});
+document.querySelectorAll("h2").forEach(function(e){e.innerHTML='<span class="t">'+e.innerHTML+"</span>"});
+document.querySelectorAll(".rv,h2,.map").forEach(function(e){io.observe(e)});
+
+/* kiosk */
+var out=$("#out"),cmd=$("#cmd"),hist=[],hi=0;
+function say(t,cl){var d=document.createElement("div");if(cl)d.className=cl;d.textContent=t;out.appendChild(d);out.scrollTop=out.scrollHeight}
+var CMDS={
+ help:function(){say("help, whoami, skills, projects, socials, resume, email, night, clear","d")},
+ whoami:function(){say("Dhanush J. Python and Django backend developer, Chennai.\nB.Tech IT (May 2026, CGPA 8.17). Four internships, one full stack program.\nReady to join immediately.")},
+ skills:function(){say(LINES.map(function(l){return l.t+": "+l.s.join(", ")}).join("\n"))},
+ projects:function(){say(PROJECTS.map(function(p,i){return (i+1)+". "+p.t+" ("+p.kind+")"}).join("\n"))},
+ socials:function(){say("github   "+LINKS.github+"\nlinkedin "+LINKS.linkedin+"\nleetcode "+LINKS.leetcode+"\nemail    "+EMAIL)},
+ resume:function(){say("Printing your ticket...","d");dl()},email:function(){say(EMAIL);copyEmail()},
+ night:function(){night();say("Service changed.","d")},clear:function(){out.textContent=""}};
+say("Welcome aboard. Type help.","d");
+$("#kiosk").onclick=function(){cmd.focus()};
+cmd.onkeydown=function(e){
+  if(e.key==="Enter"){var v=cmd.value.trim().toLowerCase();cmd.value="";if(!v)return;hist.push(v);hi=hist.length;say("> "+v,"c");if(CMDS[v])CMDS[v]();else say("Unknown stop: "+v+". Type help.","d")}
+  else if(e.key==="ArrowUp"){if(hi>0){hi--;cmd.value=hist[hi];e.preventDefault()}}
+  else if(e.key==="ArrowDown"){if(hi<hist.length-1){hi++;cmd.value=hist[hi]}else{hi=hist.length;cmd.value=""}}};
+
+/* palette */
+var ITEMS=[["Departures","stop",function(){go("about")}],["Skills map","stop",function(){go("skills")}],["Tickets (projects)","stop",function(){go("projects")}],
+ ["Information kiosk","stop",function(){go("terminal")}],["Stops so far (experience)","stop",function(){go("experience")}],["Final stop (contact)","stop",function(){go("contact")}],
+ ["Copy email","action",copyEmail],["Download resume","action",dl],["Switch day or night service","action",night],
+ ["Open GitHub","link",function(){open(LINKS.github,"_blank","noopener")}],["Open LinkedIn","link",function(){open(LINKS.linkedin,"_blank","noopener")}]];
+var pal=$("#pal"),pq=$("#pq"),pl=$("#pl"),sel=0,shown=ITEMS,pf;
+function dp(){pl.innerHTML=shown.map(function(i,n){return '<li role="option" aria-selected="'+(n===sel)+'" data-n="'+n+'">'+i[0]+'<small>'+i[1]+'</small></li>'}).join("")||"<li>No match</li>"}
+function op(){pf=document.activeElement;pal.classList.add("on");pq.value="";shown=ITEMS;sel=0;dp();pq.focus()}
+function cp(){pal.classList.remove("on");if(pf&&pf.focus)pf.focus()}
+function rp(n){var i=shown[n];if(!i)return;cp();setTimeout(i[2],60)}
+$("#open-pal").onclick=op;
+pq.oninput=function(){var q=pq.value.toLowerCase();shown=ITEMS.filter(function(i){return i[0].toLowerCase().indexOf(q)>-1});sel=0;dp()};
+pq.onkeydown=function(e){if(e.key==="ArrowDown"){sel=Math.min(sel+1,shown.length-1);dp();e.preventDefault()}else if(e.key==="ArrowUp"){sel=Math.max(sel-1,0);dp();e.preventDefault()}else if(e.key==="Enter")rp(sel)};
+pl.onclick=function(e){var li=e.target.closest("li[data-n]");if(li)rp(+li.dataset.n)};
+pal.onclick=function(e){if(e.target===pal)cp()};
+addEventListener("keydown",function(e){if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){e.preventDefault();pal.classList.contains("on")?cp():op()}else if(e.key==="Escape"&&pal.classList.contains("on"))cp()});
+})();
+</script>
+</body>
+</html>
